@@ -179,24 +179,3 @@ class OpenGLActivity : Activity() {
         }
     }
 }
-
-/* NOTES:
-*  GLSurface view is like any other view but is for out putting result of comming out
-*  of the render pipeline.(maybe the easiest view to use)
-*  Other View to use
-*   - TextureView -> for full screen
-*   - SurfaceView -> diy, more code, moreflexability?
-*
-*  You needs an Activity. This one is called OpenGLActivity
-*  You need to use an Intent in the MainActivity to start the OpenGLActivity
-*  You must define your activity in the android manifest file like MainActivity. However only the name tag is needed
-*  Extending GLSurvaceView is recommended for responding to events
-*  Steps
-*  - init gl context
-*  - define a renderer
-*
-*  TODO: Continue at: https://developer.android.com/develop/ui/views/graphics/opengl/projection
-*
-*
-*
- */
